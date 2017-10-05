@@ -12,25 +12,41 @@ Module.register("compliments", {
 	defaults: {
 		compliments: {
 			anytime: [
-				"Hey there sexy!"
+				"Welcome to the Innovation Lab!",
+				"Hi! I am Jarvis!",
+				/*"Bonjour! I am Jarvis!",
+				"Namaste! I am Jarvis!",
+				"Vanakkam! I am Jarvis!",
+				"Hola! I am Jarvis!",*/
+				"Talk to me by saying, 'Hey Alexa, Start Jarvis!'"
 			],
 			morning: [
-				"Good morning, handsome!",
-				"Enjoy your day!",
-				"How was your sleep?"
+				"Good Morning! I am Jarvis!",
+				"Welcome to the Innovation Lab!",
+				/*"Guten Morgan! I am Jarvis!",
+				"Kalai Vanakkam! I am Jarvis!",
+				"Buenos Dias! I am Jarvis!",*/
+				"Talk to me by saying, 'Hey Alexa, Start Jarvis!'"
 			],
 			afternoon: [
-				"Hello, beauty!",
-				"You look sexy!",
-				"Looking good today!"
+				"Good afternoon! I am Jarvis!",
+				"Welcome to the Innovation Lab!",
+				/*"Guten Tag! I am Jarvis!",
+				"Madhiya Vanakkam! I am Jarvis!",
+				"Buenas Tardes! I am Jarvis!",*/
+				"Talk to me by saying, 'Hey Alexa, Start Jarvis!'"
 			],
 			evening: [
-				"Wow, you look hot!",
-				"You look nice!",
-				"Hi, sexy!"
+				"Good Evening! I am Jarvis!",
+				"Welcome to the Innovation Lab!",
+				/*"Gute Abend! I am Jarvis!",
+				"Bonsoir! I am Jarvis!",
+				"Buena Noches! I am Jarvis!"
+				"Malai Vanakkam! I am Jarvis!",*/
+				"Talk to me by saying, 'Hey Alexa, Start Jarvis!'"
 			]
 		},
-		updateInterval: 30000,
+		updateInterval: 10000,
 		remoteFile: null,
 		fadeSpeed: 4000
 	},
